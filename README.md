@@ -13,7 +13,7 @@ exports.xmtp = onRequest(async (req, res) => {
     env: "production",
   });
   const conv = await xmtp.conversations.newConversation(
-    "0x7E0b0363404751346930AF92C80D1fef932Cc48a"
+    "{YOUR WALLET ADDRESS}"
   );
   const msg = conv.send("gm firebase-functions");
   console.log(msg.id);
