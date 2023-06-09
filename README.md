@@ -2,7 +2,9 @@
 
 ```tsx
 npm install -g firebase-tools
+cd functions
 npm install @xmtp/xmtp-js ethers
+firebase deploy
 ```
 
 ```tsx
