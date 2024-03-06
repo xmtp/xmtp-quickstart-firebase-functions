@@ -21,6 +21,8 @@ npm install @xmtp/xmtp-js ethers
 firebase deploy
 ```
 
+## Server call
+
 ```tsx
 exports.xmtp = onRequest(async (req, res) => {
   const xmtp = await Client.create(ethers.Wallet.createRandom(), {
