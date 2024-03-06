@@ -12,6 +12,8 @@ Head to our docs to understand XMTP's concepts
 - [Messages](https://xmtp.org/docs/build/messages/?sdk=react)
 - [Streams](https://xmtp.org/docs/build/streams/?sdk=react)
 
+## Get started
+
 ```tsx
 npm install -g firebase-tools
 cd functions
@@ -35,7 +37,4 @@ exports.xmtp = onRequest(async (req, res) => {
 
 ### Call your function in the browser
 
-```jsx
-//In my case it is
-//https://xmtp-br42u53weq-uc.a.run.app/
-```
+Eg. https://xmtp-br42u53weq-uc.a.run.app/
