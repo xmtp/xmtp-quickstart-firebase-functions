@@ -35,6 +35,6 @@ exports.xmtp = onRequest(async (req, res) => {
 });
 ```
 
-### Call your function in the browser
+**Call your function in the browser**
 
 Eg. https://xmtp-br42u53weq-uc.a.run.app/
